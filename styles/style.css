@@ -127,6 +127,32 @@ font-size: 18px;
 font-weight: 600;
 margin: 6px 0;
 }
+/* table */
+.table-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.table,td{
+    border: 1px solid #393939;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px 20px;
+    color:#393939;
+}
+.all-input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.all-input > input{
+    margin: 0px 12px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+color: white;
+}
+
 /* Run Section */
 .run-sec{
 max-width: 1060px;
