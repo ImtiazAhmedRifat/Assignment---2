@@ -1,0 +1,16 @@
+/* mobile screen */
+
+@media  screen and (max-width:576px) {
+
+    .nav-bar{
+        padding: 0 20px;
+    }
+    .nav-items >ul{
+        display: none;
+    }
+    #ham-burg{
+        display: block;
+      
+
+    }
+}
