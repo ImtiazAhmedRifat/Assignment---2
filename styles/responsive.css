@@ -10,7 +10,9 @@
     }
     #ham-burg{
         display: block;
-      
-
-    }
+      }
+      /* banner */
+      .banner{
+        flex-direction: column;
+      }
 }
