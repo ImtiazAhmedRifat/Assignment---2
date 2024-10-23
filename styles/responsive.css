@@ -12,7 +12,17 @@
         display: block;
       }
       /* banner */
-      .banner{
+      .banner,
+      .run-container
+      {
         flex-direction: column;
       }
+      .habits-img-container{
+        grid-template-columns: repeat(1, 1fr);
+        /* border: 3px solid red; */
+    }
+    .run-container{
+        justify-content: center;
+        align-items: center;
+    }
 }

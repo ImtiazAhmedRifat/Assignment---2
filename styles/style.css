@@ -7,6 +7,12 @@
   font-style: normal;
 } 
 /* shared styles */
+.desc-primary{
+color: rgba(255, 255, 255, 0.5);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
 .btn-primary{
     color: white;
  background-color: #E75542;
@@ -72,7 +78,7 @@ font-weight: 800;
 
 .banner-title{
     color: rgb(255, 255, 255);
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 900;
 }
 .banner-img{
@@ -92,4 +98,58 @@ border-radius: 42px;
 padding: 16px 40px 16px 40px;
 margin: 10px;
 
+}
+/* habits section */
+.habits{
+    max-width: 1060px;
+    margin: 100px auto;
+    text-align: center;
+}
+.habits-title{
+color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 900;
+margin: 14px 0px;
+}
+.habits-img-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* border: 3px solid red; */
+}
+.habits-img{
+    border-radius: 50%;
+    margin-top: 35px;
+}
+.box-title{
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+margin: 6px 0;
+}
+/* Run Section */
+.run-sec{
+max-width: 1060px;
+ margin: 0px auto;
+ border-radius: 18px;
+background:#222222;
+}
+.run-container{
+    display: flex;
+} 
+.run-inner{
+    margin-left: 40px;
+}
+.run-title{
+color: rgb(255, 255, 255);
+font-size: 3rem;
+font-weight: 900;
+}
+.run-img{
+   margin: 30px;
+   border-radius: 18px;
+}
+.run-img img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
 }
