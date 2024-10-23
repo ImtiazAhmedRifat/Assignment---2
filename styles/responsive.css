@@ -13,16 +13,24 @@
       }
       /* banner */
       .banner,
-      .run-container
+      .run-container,
+      .footer
       {
         flex-direction: column;
       }
-      .habits-img-container{
+      .habits-img-container,
+      .team-members
+      {
         grid-template-columns: repeat(1, 1fr);
         /* border: 3px solid red; */
     }
-    .run-container{
+    .run-container,
+    .team-members{
         justify-content: center;
         align-items: center;
     }
+    /* .trainer img{
+        width: 100%;
+        height: 100%;
+    } */
 }
