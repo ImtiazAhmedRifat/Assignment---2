@@ -14,12 +14,14 @@
       /* banner */
       .banner,
       .run-container,
+      .table-container,
       .footer
       {
         flex-direction: column;
       }
       .habits-img-container,
-      .team-members
+      .team-members,
+      .all-input
       {
         grid-template-columns: repeat(1, 1fr);
         /* border: 3px solid red; */
