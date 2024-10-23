@@ -27,12 +27,20 @@
         /* border: 3px solid red; */
     }
     .run-container,
+    .table-container,
     .team-members{
         justify-content: center;
         align-items: center;
+    }
+    .table-inner{
+        text-align: center;
     }
     /* .trainer img{
         width: 100%;
         height: 100%;
     } */
+     .team{
+        display: none;
+        /* cannot make this section responsive */
+     }
 }

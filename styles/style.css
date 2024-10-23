@@ -67,6 +67,7 @@ font-weight: 800;
 }
 #ham-burg{
     display: none;
+    color: white;
 }
 /* banner section */
 .banner{
@@ -100,6 +101,9 @@ padding: 16px 40px 16px 40px;
 margin: 10px;
 
 }
+#italic{
+    font-style: italic;
+}
 /* habits section */
 .habits{
     max-width: 1060px;
@@ -131,14 +135,19 @@ margin: 6px 0;
 .table-container{
     display: flex;
     justify-content: space-around;
-    
+    align-items: center;
+    background-color: #222222;
+    margin-top: 45px;
 }
 .table,td{
     border: 1px solid #393939;
     text-align: center;
     border-collapse: collapse;
     padding: 10px 20px;
-    color:#393939;
+    color: white
+}
+.table-inner{
+    text-align: center;
 }
 .all-input{
     display: grid;
@@ -240,7 +249,7 @@ background: rgba(255, 255, 255, 0.1);
 
 }
 .Shape{
-    font: italic
+    font-style: italic;
 }
 
 
