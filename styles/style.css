@@ -90,6 +90,7 @@ font-weight: 800;
     align-items: center;
     margin: 0 auto;
     /* border: 3px solid red; */
+    position: relative;
 }
 .banner-btn{
     color: white;
@@ -100,6 +101,49 @@ border-radius: 42px;
 padding: 16px 40px 16px 40px;
 margin: 10px;
 
+}
+.token-1{
+    width: 193px;
+height: 98px;
+    padding: 15px;
+    margin-top: 0px;
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+color: white;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+position: absolute;
+text-align: center;
+}
+.token-2{
+    width: 193px;
+    height: 98px;
+left: 74px;
+top: 446px;
+padding: 15px;
+margin-top: 0px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+color: white;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+position: absolute;
+text-align: center;
+}
+.token-title{
+    color: rgb(255, 255, 255);
+font-size: 40px;
+font-weight: 900;
+
+margin-bottom: 0;
+margin-top: 0px;
+}
+.token-desc{
+    
+margin-bottom: 0;
+margin-top: 0px;
 }
 #italic{
     font-style: italic;
